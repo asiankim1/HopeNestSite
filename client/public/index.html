@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HopeNest Foundation - Empowering communities through compassion, support, and sustainable development. Join us in making a difference.">
+    <meta property="og:title" content="HopeNest Foundation - Building Hope Together">
+    <meta property="og:description" content="Support our mission to empower communities and transform lives through education, healthcare, and sustainable development.">
+    <meta property="og:type" content="website">
+    <title>HopeNest Foundation - Building Hope Together</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">HopeNest Foundation</span>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" data-testid="button-mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active" data-testid="link-home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-testid="link-about">About</a></li>
+                <li><a href="#mission" class="nav-link" data-testid="link-mission">Mission</a></li>
+                <li><a href="#donate" class="nav-link" data-testid="link-donate">Donate</a></li>
+                <li><a href="#contact" class="nav-link" data-testid="link-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in" data-testid="text-hero-title">HopeNest Foundation</h1>
+            <p class="hero-subtitle animate-fade-in" data-testid="text-hero-subtitle">Building Hope Together</p>
+            <p class="hero-mission animate-fade-in" data-testid="text-hero-mission">
+                Empowering communities through compassion, education, and sustainable development. 
+                Together, we create lasting change and transform lives.
+            </p>
+            <a href="#donate" class="btn-primary animate-fade-in" data-testid="button-donate-hero">
+                Donate Now
+            </a>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="about-content fade-in-section" data-testid="section-about">
+                <div class="about-image">
+                    <img src="/about-placeholder.jpg" alt="HopeNest Foundation team in action" data-testid="img-about">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-heading" data-testid="text-about-heading">About Us</h2>
+                    <p class="section-text" data-testid="text-about-paragraph-1">
+                        Founded with a vision to create meaningful change, HopeNest Foundation has been 
+                        at the forefront of community development for over a decade. Our dedicated team 
+                        works tirelessly to bring hope, opportunity, and sustainable solutions to 
+                        underserved communities around the world.
+                    </p>
+                    <p class="section-text" data-testid="text-about-paragraph-2">
+                        We believe that every individual deserves access to basic necessities, quality 
+                        education, and healthcare. Through collaborative partnerships and innovative 
+                        programs, we've impacted thousands of lives and continue to expand our reach 
+                        to those who need it most.
+                    </p>
+                    <p class="section-text" data-testid="text-about-paragraph-3">
+                        Our approach is holistic and community-centered, ensuring that our initiatives 
+                        create lasting impact and empower communities to thrive independently. Join us 
+                        in our mission to build a brighter, more equitable future for all.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="section mission-section" id="mission">
+        <div class="container">
+            <h2 class="section-heading centered fade-in-section" data-testid="text-mission-heading">Our Mission</h2>
+            <div class="mission-grid">
+                <div class="mission-card fade-in-section" data-testid="card-mission-1">
+                    <div class="mission-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="mission-title" data-testid="text-mission-1-title">Education for All</h3>
+                    <p class="mission-description" data-testid="text-mission-1-description">
+                        Providing access to quality education, school supplies, and scholarships 
+                        to children in underserved communities, breaking the cycle of poverty 
+                        through learning.
+                    </p>
+                </div>
+                
+                <div class="mission-card fade-in-section" data-testid="card-mission-2">
+                    <div class="mission-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="mission-title" data-testid="text-mission-2-title">Healthcare Access</h3>
+                    <p class="mission-description" data-testid="text-mission-2-description">
+                        Delivering essential medical services, health education, and preventive 
+                        care to communities lacking adequate healthcare infrastructure and resources.
+                    </p>
+                </div>
+                
+                <div class="mission-card fade-in-section" data-testid="card-mission-3">
+                    <div class="mission-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 class="mission-title" data-testid="text-mission-3-title">Community Support</h3>
+                    <p class="mission-description" data-testid="text-mission-3-description">
+                        Building strong, resilient communities through skills training, 
+                        micro-enterprise development, and sustainable livelihood programs.
+                    </p>
+                </div>
+                
+                <div class="mission-card fade-in-section" data-testid="card-mission-4">
+                    <div class="mission-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="mission-title" data-testid="text-mission-4-title">Food Security</h3>
+                    <p class="mission-description" data-testid="text-mission-4-description">
+                        Ensuring access to nutritious meals and establishing sustainable food 
+                        programs that combat hunger and malnutrition in vulnerable populations.
+                    </p>
+                </div>
+                
+                <div class="mission-card fade-in-section" data-testid="card-mission-5">
+                    <div class="mission-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="mission-title" data-testid="text-mission-5-title">Shelter & Safety</h3>
+                    <p class="mission-description" data-testid="text-mission-5-description">
+                        Providing safe housing, emergency shelter, and support services for 
+                        families facing homelessness and those affected by natural disasters.
+                    </p>
+                </div>
+                
+                <div class="mission-card fade-in-section" data-testid="card-mission-6">
+                    <div class="mission-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3 class="mission-title" data-testid="text-mission-6-title">Environmental Care</h3>
+                    <p class="mission-description" data-testid="text-mission-6-description">
+                        Promoting environmental sustainability through clean water initiatives, 
+                        reforestation projects, and education on conservation practices.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section class="section donation-section" id="donate">
+        <div class="container">
+            <div class="donation-content fade-in-section" data-testid="section-donate">
+                <h2 class="section-heading centered" data-testid="text-donate-heading">Support Our Cause</h2>
+                <p class="section-subheading" data-testid="text-donate-subheading">
+                    Your generous donation helps us continue our mission to empower communities 
+                    and transform lives. Every contribution, no matter the size, makes a real difference.
+                </p>
+                
+                <div class="donation-card">
+                    <div class="donation-impact">
+                        <div class="impact-item">
+                            <span class="impact-amount">$50</span>
+                            <span class="impact-description">Provides school supplies for 5 children</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-amount">$100</span>
+                            <span class="impact-description">Supports a family with food for a month</span>
+                        </div>
+                        <div class="impact-item">
+                            <span class="impact-amount">$250</span>
+                            <span class="impact-description">Funds medical care for 10 patients</span>
+                        </div>
+                    </div>
+                    
+                    <div class="paypal-container" id="paypalContainer" data-testid="container-paypal">
+                        <p class="donation-instruction" data-testid="text-donation-instruction">Click the button below to make a secure donation via PayPal</p>
+                        <div id="paypal-button-container"></div>
+                    </div>
+                    
+                    <div class="alternate-donation">
+                        <p class="alternate-title">Alternative Donation Methods</p>
+                        <div class="bank-details" data-testid="section-bank-details">
+                            <p><strong>Bank Transfer:</strong></p>
+                            <p>Bank: Community Trust Bank</p>
+                            <p>Account Name: HopeNest Foundation</p>
+                            <p>Account Number: 1234567890</p>
+                            <p>Routing Number: 987654321</p>
+                        </div>
+                    </div>
+                    
+                    <div class="trust-indicators">
+                        <i class="fas fa-lock"></i>
+                        <span>Secure donation processing • 501(c)(3) Tax-deductible</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-heading centered fade-in-section" data-testid="text-contact-heading">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-card fade-in-section" data-testid="card-contact-email">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="contact-label">Email</h3>
+                    <p class="contact-info">
+                        <a href="mailto:info@hopenest.org" data-testid="link-email">info@hopenest.org</a>
+                    </p>
+                </div>
+                
+                <div class="contact-card fade-in-section" data-testid="card-contact-phone">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 class="contact-label">Phone</h3>
+                    <p class="contact-info">
+                        <a href="tel:+15551234567" data-testid="link-phone">+1 (555) 123-4567</a>
+                    </p>
+                </div>
+                
+                <div class="contact-card fade-in-section" data-testid="card-contact-address">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="contact-label">Address</h3>
+                    <p class="contact-info" data-testid="text-address">
+                        123 Hope Street<br>
+                        Compassion City, CA 94102<br>
+                        United States
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text" data-testid="text-footer-copyright">
+                &copy; 2024 HopeNest Foundation. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
